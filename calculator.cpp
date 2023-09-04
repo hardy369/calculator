@@ -10,14 +10,14 @@ void division();
 void sqr();  
 void srt();  
 void exit();  
-void main()  
+int main()  
 {  
-clrscr();  
+system ("cls");
 int opr;  
 // display different operation of the calculator  
 do  
 {  
-cout << "Select any operation from the C++ Calculator"  
+cout << "Select any operation from the  Calculator"  
      "\n1 = Addition"  
      "\n2 = Subtraction"  
      "\n3 = Multiplication"  
