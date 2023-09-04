@@ -1,8 +1,5 @@
-#include<iostream>  
-#include<stdio.h>  
-#include<conio.h>  
-#include<math.h>  
-#include<stdlib.h>  
+#include<iostream>   
+#include<cmath>  
 using namespace std;
 void add();  
 void sub();  
@@ -58,7 +55,7 @@ cout << "Select any operation from the Calculator"
     }  
     cout <<" \n------------------------------\n";  
     }while(opr != 7);  
-    getch();  
+   return(0);  
     }  
   
 void add()  
@@ -96,7 +93,7 @@ cout <<"\n Multiplication of two numbers = " << mul;
 }  
 void division()  
 {  
-int num1, num2, div = 0;  
+double num1, num2, div = 0;  
 cout <<" \n Enter the First number = ";  
 cin >> num1;  
 cout << "\n Enter the Second number = ";  
