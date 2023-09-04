@@ -1,8 +1,9 @@
-#include<iostream.h>  
+#include<iostream>  
 #include<stdio.h>  
 #include<conio.h>  
 #include<math.h>  
 #include<stdlib.h>  
+using namespace std;
 void add();  
 void sub();  
 void multi();  
@@ -17,7 +18,7 @@ int opr;
 // display different operation of the calculator  
 do  
 {  
-cout << "Select any operation from the  Calculator"  
+cout << "Select any operation from the Calculator"  
      "\n1 = Addition"  
      "\n2 = Subtraction"  
      "\n3 = Multiplication"  
@@ -31,25 +32,25 @@ cout << "Select any operation from the  Calculator"
    switch (opr)  
      {  
      case 1:  
-    add();   // call add() function to find the Addition  
+    add();   
     break;  
     case 2:  
-    sub();   // call sub() function to find the subtraction  
+    sub();   
     break;  
     case 3:  
-    multi(); // call multi() function to find the multiplication  
+    multi();   
     break;  
     case 4:  
-    division(); // call division() function to find the division  
+    division();   
     break;  
     case 5:  
-    sqr(); // call sqr() function to find the square of a number  
+    sqr();   
     break;  
     case 6:  
-    srt(); // call srt() function to find the Square Root of the given number  
+    srt();   
     break;  
     case 7:  
-    exit(0);   // terminate the program  
+    exit(0);  
     break;  
     default:  
     cout <<"Something is wrong..!!";  
@@ -65,7 +66,7 @@ void add()
 int n, sum = 0, i, number;  
 cout <<"How many numbers you want to add: ";  
 cin >> n;  
-cout << "Please enter the number one by one: \n";  
+cout << "enter the numbers one by one: \n";  
 for (i = 1; i <= n; i++)  
 {  
 cin >> number;  
